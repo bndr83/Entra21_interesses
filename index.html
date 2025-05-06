@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <meta name="Descricao: " content="Desafio 4 - Estruture seu Primeiro HTML">
+  <meta name="Nome: " content="Dioney André Nones">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Entra21</title>
+</head>
+
+<body>
+  
+ <div class="container">
+    <header>
+      <div>
+        <img src="./logotipo.png" alt="LogoEntra21">
+        <h1>Meus Interesses</h1>
+      </div>
+    </header>
+    <main>
+      <form>
+        <input type="text" class="form-control form-input" name="interesses" placeholder="Digite seu interesse" />
+        <button type="button" class="btn" >Adicionar</button>
+      </form>
+      <section class="lista">
+      
+        <div class="lista__header">
+          <strong>Lista<span id='contador' class="badge text-bg-success">Success</span></strong>
+          <button class="limpar">Limpar lista</button>
+        </div>
+        <div class="lista__content">
+          <ul>
+            <!-- os itens da lista <li> entram aqui -->
+          </ul>
+        </div>
+      </section>
+      
+    </main>
+  </div>
+  
+<script src="main.js"></script>
+  
+</body>
+
+</html>
